@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- JS -->
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <div id="players-one-two">
+            <label class="label">Player One Name:</label>
+            <input type="text" id="player-one"><br>
+            <label class="label">Player Two Name:</label>
+            <input type="text" id="player-two">
+            <button id="sub-button" onclick="submitNames">Submit</button>
+        </div>
+        <div class="row" id="top-row">
+            <div class="square" id="top-left">
+
+            </div>
+            <div class="square" id="top-center">
+                
+            </div>
+            <div class="square" id="top-right">
+                
+            </div>
+        </div>
+        <div class="row" id="mid-row">
+            <div class="square" id="mid-left">
+                
+            </div>
+            <div class="square" id="mid-center">
+                
+            </div>
+            <div class="square" id="mid-right">
+                
+            </div>
+        </div>
+        <div class="row" id="bottom-row">
+            <div class="square" id="bottom-left">
+                
+            </div>
+            <div class="square" id="bottom-center">
+                
+            </div>
+            <div class="square" id="bottom-right">
+                
+            </div>
+        </div>
+        <div id="footer">
+            <h2 id="player-turn"></h2>
+            <button id="game-button" onclick="reset()">Reset</button>
+        </div>
+    </body>
+</html>

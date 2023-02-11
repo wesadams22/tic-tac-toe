@@ -1,0 +1,75 @@
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.75rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#players-one-two{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.square{
+    height: 160px;
+    width: 160px;
+    line-height: 160px;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+ }
+
+#top-left{
+    border-bottom: 7px solid black;
+    border-right: 7px solid black;
+}
+
+#top-center{
+    border-bottom: 7px solid black;
+}
+
+#top-right{
+    border-bottom: 7px solid black;
+    border-left: 7px solid black;
+}
+
+#mid-left{
+    border-right: 7px solid black;
+}
+
+#mid-right{
+    border-left: 7px solid black;
+}
+
+#bottom-left{
+    border-top: 7px solid black;
+    border-right: 7px solid black;
+}
+
+#bottom-center{
+    border-top: 7px solid black;
+}
+
+#bottom-right{
+    border-top: 7px solid black;
+    border-left: 7px solid black;
+}
+
+#footer{
+    text-align: center;
+}
+
+#player-turn{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4.75rem;
+}
+
+#game-button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
